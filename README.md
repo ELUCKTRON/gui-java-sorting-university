@@ -1,8 +1,8 @@
 # GUI Java Sorting – University Project (2nd Semester)
 
-This is a simple command-line Java program developed as part of the **Algorithms and Data Structures** course during the second semester of university.
+This is a simple swing Java program developed as part of the **Algorithms and Data Structures** course during the second semester of university.
 
-The goal of the project was to understand and implement core sorting algorithms in Java, demonstrating how each works in practice through console output.
+The goal of the project was to understand and implement core sorting algorithms in Java, demonstrating how each works in practice.
 
 ## Features
 
@@ -15,4 +15,4 @@ The goal of the project was to understand and implement core sorting algorithms 
 
 ## Purpose
 
-This project helped reinforce sorting algorithm logic, memory management, and runtime behavior — all essential fundamentals for deeper algorithmic thinking.
+This project helped reinforce sorting algorithm logic, memory management, and runtime behavior — all essential fundamentals for deeper algorithmic thinking and the difference of time complexity of them.
