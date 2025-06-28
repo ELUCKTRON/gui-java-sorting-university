@@ -13,7 +13,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Set up JDK 21
+      - name: Set up JDK
         uses: actions/setup-java@v3
         with:
           java-version: "21"
@@ -24,17 +24,12 @@ jobs:
 
       - name: Rename JAR
         run: |
-          mkdir release
+          mkdir -p release
           cp target/*.jar release/app.jar
 
-      - name: Create GitHub Release
-        uses: ncipollo/release-action@v1
-        with:
-          tag: ${{ github.ref_name }}
-          token: ${{ secrets.PERSONAL_TOKEN }}
-
-      - name: Upload JAR to Release
+      - name: Release and upload JAR
         uses: softprops/action-gh-release@v1
         with:
           files: release/app.jar
+          tag_name: ${{ github.ref_name }}
           token: ${{ secrets.PERSONAL_TOKEN }}
