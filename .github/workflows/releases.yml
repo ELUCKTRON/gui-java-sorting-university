@@ -30,6 +30,6 @@ jobs:
       - name: Release and upload JAR
         uses: softprops/action-gh-release@v1
         with:
-          files: release/app.jar
+          files: release/sorting.jar
           tag_name: ${{ github.ref_name }}
           token: ${{ secrets.PERSONAL_TOKEN }}
