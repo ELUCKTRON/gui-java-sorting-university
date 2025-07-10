@@ -25,7 +25,7 @@ jobs:
       - name: Rename JAR
         run: |
           mkdir -p release
-          cp target/*.jar release/app.jar
+          cp target/*.jar release/sorting.jar
 
       - name: Release and upload JAR
         uses: softprops/action-gh-release@v1
