@@ -10,10 +10,10 @@ While the GUI focuses on performance comparison, each sorting algorithm is also 
 ## 📸 Screenshots
 
 ### 🟢 Start of Sorting
-![Start](./assets/start.jpg)
+![Start](./assets/start.png)
 
 ### 🏁 Sorted Result
-![End](./assets/end.jpg)
+![End](./assets/end.png)
 
 ---
 
